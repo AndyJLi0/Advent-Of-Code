@@ -22,7 +22,7 @@ int main()
 
     long long sum = 0;
     string line;
-    ifstream myfile("dataset.txt");
+    ifstream myfile("day1data.txt");
     if (myfile.is_open())
     {
         while (getline(myfile, line))
@@ -47,7 +47,7 @@ int main()
                     numbers.insert({i, line[i] - '0'});
                 }
             }
-            cout << numbers.begin()->second << " " << numbers.rbegin()->second << endl;
+            //cout << numbers.begin()->second << " " << numbers.rbegin()->second << endl;
             int value = 10 * numbers.begin()->second + numbers.rbegin()->second;
             sum += value;
         }
@@ -56,3 +56,5 @@ int main()
     cout << sum << endl;
     return 0;
 }
+
+// answer is 53312
