@@ -1,26 +1,21 @@
 // reading a text file
-#include <iostream>
 #include <fstream>
+#include <iostream>
+#include <map>
 #include <string>
 #include <vector>
-#include <map>
 
 using namespace std;
 
-int main()
-{
+int main() {
     long long sum = 0;
     string line;
     ifstream myfile("day1data.txt");
-    if (myfile.is_open())
-    {
-        while (getline(myfile, line))
-        {
+    if (myfile.is_open()) {
+        while (getline(myfile, line)) {
             std::vector<int> numbers;
-            for (int i = 0; i < line.length(); i++)
-            {
-                if (isdigit(line[i]))
-                {
+            for (int i = 0; i < line.length(); i++) {
+                if (isdigit(line[i])) {
                     numbers.push_back(line[i] - '0');
                 }
             }
