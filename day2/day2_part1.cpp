@@ -1,3 +1,4 @@
+// SOLUTION: 2600
 #include <fstream>
 #include <iostream>
 #include <map>

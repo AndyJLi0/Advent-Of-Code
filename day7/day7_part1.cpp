@@ -1,4 +1,4 @@
-// its bid multiplied by its rank
+//SOLUTION: 249390788
 #include <algorithm>
 #include <fstream>
 #include <iostream>

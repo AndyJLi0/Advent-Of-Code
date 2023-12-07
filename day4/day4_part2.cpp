@@ -1,5 +1,4 @@
-// add vec[j] number of cards up to #winning cards of places in copies.
-
+// SOLUTION: 5667240
 #include <algorithm>
 #include <fstream>
 #include <iostream>

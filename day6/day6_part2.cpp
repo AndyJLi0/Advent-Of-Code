@@ -1,8 +1,4 @@
-/*
-Time:        63     78     94     68
-Distance:   411   1274   2047   1035
-*/
-
+// SOLUTION: 49240091
 #include <algorithm>
 #include <fstream>
 #include <iostream>
